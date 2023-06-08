@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html :class="{ 'theme-dark': dark }" x-data="data()" lang="en">
+<!DOCTYPE php>
+<php :class="{ 'theme-dark': dark }" x-data="data()" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -54,7 +54,7 @@
               ></span>
               <a
                 class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
-                href="index.html"
+                href="index.php"
               >
                 <svg
                   class="w-5 h-5"
@@ -78,7 +78,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="forms.html"
+                href="forms.php"
               >
               <svg xmlns="http://www.w3.org/2000/svg"
               stroke-linejoin="round"
@@ -97,7 +97,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="cards.html"
+                href="cards.php"
               >
                 <svg
                   class="w-5 h-5"
@@ -120,7 +120,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="charts.html"
+                href="charts.php"
               >
               <svg
               class="w-5 h-5"
@@ -144,7 +144,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="modals.html"
+                href="modals.php"
               >
                 <svg
                 stroke-linejoin="round"
@@ -163,7 +163,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="tables.html"
+                href="tables.php"
               >
               <svg xmlns="http://www.w3.org/2000/svg" 
               stroke-linejoin="round"
@@ -178,7 +178,26 @@
                 <span class="ml-4">Proyectos</span>
               </a>
             </li>
-        
+            
+        <li class="relative px-6 py-3">
+          <a
+            class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
+            href="recaudo.php"
+          >
+            <svg
+            stroke-linejoin="round"
+            stroke="currentColor"
+            xmlns="http://www.w3.org/2000/svg" 
+            width="24" 
+            height="24" 
+            viewBox="0 0 24 24" 
+            style="fill: rgba(86, 74, 74, 1)"
+            >
+            <path d="M19.924 10.383a1 1 0 0 0-.217-1.09l-5-5-1.414 1.414L16.586 9H4v2h15a1 1 0 0 0 .924-.617zM4.076 13.617a1 1 0 0 0 .217 1.09l5 5 1.414-1.414L7.414 15H20v-2H5a.999.999 0 0 0-.924.617z"></path>
+            </svg>
+            <span class="ml-4">Recaudo</span>
+          </a>
+        </li>
 
            
         </div>
@@ -222,7 +241,7 @@
               ></span>
               <a
                 class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
-                href="index.html"
+                href="index.php"
               >
                 <svg
                   class="w-5 h-5"
@@ -246,7 +265,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="forms.html"
+                href="forms.php"
               >
                 <svg
                   class="w-5 h-5"
@@ -268,7 +287,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="cards.html"
+                href="cards.php"
               >
                 <svg
                   class="w-5 h-5"
@@ -290,7 +309,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="charts.html"
+                href="charts.php"
               >
                 <svg
                   class="w-5 h-5"
@@ -313,7 +332,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="buttons.html"
+                href="buttons.php"
               >
                 <svg
                   class="w-5 h-5"
@@ -335,7 +354,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="modals.html"
+                href="modals.php"
               >
                 <svg
                   class="w-5 h-5"
@@ -357,7 +376,7 @@
             <li class="relative px-6 py-3">
               <a
                 class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href="tables.html"
+                href="tables.php"
               >
                 <svg
                   class="w-5 h-5"
@@ -424,31 +443,31 @@
                   <li
                     class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                   >
-                    <a class="w-full" href="pages/login.html">Login</a>
+                    <a class="w-full" href="pages/login.php">Login</a>
                   </li>
                   <li
                     class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                   >
-                    <a class="w-full" href="pages/create-account.html">
+                    <a class="w-full" href="pages/create-account.php">
                       Create account
                     </a>
                   </li>
                   <li
                     class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                   >
-                    <a class="w-full" href="pages/forgot-password.html">
+                    <a class="w-full" href="pages/forgot-password.php">
                       Forgot password
                     </a>
                   </li>
                   <li
                     class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                   >
-                    <a class="w-full" href="pages/404.html">404</a>
+                    <a class="w-full" href="pages/404.php">404</a>
                   </li>
                   <li
                     class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                   >
-                    <a class="w-full" href="pages/blank.html">Blank</a>
+                    <a class="w-full" href="pages/blank.php">Blank</a>
                   </li>
                 </ul>
               </template>
@@ -520,7 +539,7 @@
               <li class="relative px-6 py-3">
                 <a
                   class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                  href="pages/login.html"
+                  href="pages/login.php"
                 >
                 <svg xmlns="http://www.w3.org/2000/svg" 
                 stroke="currentColor"
@@ -748,7 +767,7 @@
             <!-- CTA -->
             <a
               class="flex items-center justify-between p-4 mb-8 text-sm font-semibold text-purple-100 bg-purple-600 rounded-lg shadow-md focus:outline-none focus:shadow-outline-purple"
-              href="tables.html"
+              href="tables.php"
             >
               <div class="flex items-center">
                 <svg
@@ -1223,4 +1242,4 @@
       </div>
     </div>
   </body>
-</html>
+</php>
